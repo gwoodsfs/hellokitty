@@ -6,8 +6,8 @@ guess = 0
 name = input("Hello! What is your name?\n")
 
 
-number = random.randint(1, 10)
-print(f"Well, {name}, I am thinking of a number between 1 and 10.")
+number = random.randint(1, 20)
+print(f"Well, {name}, I am thinking of a number between 1 and 20.")
 
 while guesses_made < 6:
     guess = int(input("Take a guess: "))
