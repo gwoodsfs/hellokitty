@@ -12,5 +12,5 @@ RUN pip install -r requirements.txt
 
 # Run the application:
 COPY Mouse.py .
-CMD ["python", "Mouse.py"]
+CMD ["python3", "Mouse.py"]
 
